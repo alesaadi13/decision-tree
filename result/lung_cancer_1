@@ -1,0 +1,255 @@
+
+        digraph G {
+            splines=line;
+            nodesep=0.1;
+            ranksep=.2;
+            rankdir=TD;
+            margin=0.0;
+            
+            node [margin="0.03" penwidth="0.5" width=.1, height=.1];
+            edge [arrowsize=.4 penwidth="0.3"]
+
+            node3 [margin="0" shape=none label=<<table border="0">
+                    
+                    <tr>
+                            <td><img src="C:\Users\Al\AppData\Local\Temp\node3_3016.svg"/></td>
+                    </tr>
+                    </table>>]
+	node2 [margin="0" shape=none label=<<table border="0">
+                    
+                    <tr>
+                            <td><img src="C:\Users\Al\AppData\Local\Temp\node2_3016.svg"/></td>
+                    </tr>
+                    </table>>]
+	node8 [margin="0" shape=none label=<<table border="0">
+                    
+                    <tr>
+                            <td><img src="C:\Users\Al\AppData\Local\Temp\node8_3016.svg"/></td>
+                    </tr>
+                    </table>>]
+	node7 [margin="0" shape=none label=<<table border="0">
+                    
+                    <tr>
+                            <td><img src="C:\Users\Al\AppData\Local\Temp\node7_3016.svg"/></td>
+                    </tr>
+                    </table>>]
+	node1 [margin="0" shape=none label=<<table border="0">
+                    
+                    <tr>
+                            <td><img src="C:\Users\Al\AppData\Local\Temp\node1_3016.svg"/></td>
+                    </tr>
+                    </table>>]
+	node14 [margin="0" shape=none label=<<table border="0">
+                    
+                    <tr>
+                            <td><img src="C:\Users\Al\AppData\Local\Temp\node14_3016.svg"/></td>
+                    </tr>
+                    </table>>]
+	node13 [margin="0" shape=none label=<<table border="0">
+                    
+                    <tr>
+                            <td><img src="C:\Users\Al\AppData\Local\Temp\node13_3016.svg"/></td>
+                    </tr>
+                    </table>>]
+	node19 [margin="0" shape=none label=<<table border="0">
+                    
+                    <tr>
+                            <td><img src="C:\Users\Al\AppData\Local\Temp\node19_3016.svg"/></td>
+                    </tr>
+                    </table>>]
+	node18 [margin="0" shape=none label=<<table border="0">
+                    
+                    <tr>
+                            <td><img src="C:\Users\Al\AppData\Local\Temp\node18_3016.svg"/></td>
+                    </tr>
+                    </table>>]
+	node12 [margin="0" shape=none label=<<table border="0">
+                    
+                    <tr>
+                            <td><img src="C:\Users\Al\AppData\Local\Temp\node12_3016.svg"/></td>
+                    </tr>
+                    </table>>]
+	node0 [margin="0" shape=none label=<<table border="0">
+                    
+                    <tr>
+                            <td><img src="C:\Users\Al\AppData\Local\Temp\node0_3016.svg"/></td>
+                    </tr>
+                    </table>>]
+            node3 -> leaf4 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node3 -> leaf5 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        leaf4 -> leaf5 [style=invis]
+                    }
+                    
+	node2 -> node3 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node2 -> leaf6 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node3 -> leaf6 [style=invis]
+                    }
+                    
+	node8 -> leaf9 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node8 -> leaf10 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        leaf9 -> leaf10 [style=invis]
+                    }
+                    
+	node7 -> node8 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node7 -> leaf11 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node8 -> leaf11 [style=invis]
+                    }
+                    
+	node1 -> node2 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node1 -> node7 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node2 -> node7 [style=invis]
+                    }
+                    
+	node14 -> leaf15 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node14 -> leaf16 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        leaf15 -> leaf16 [style=invis]
+                    }
+                    
+	node13 -> node14 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node13 -> leaf17 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node14 -> leaf17 [style=invis]
+                    }
+                    
+	node19 -> leaf20 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node19 -> leaf21 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        leaf20 -> leaf21 [style=invis]
+                    }
+                    
+	node18 -> node19 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node18 -> leaf22 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node19 -> leaf22 [style=invis]
+                    }
+                    
+	node12 -> node13 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	node12 -> node18 [penwidth=0.3 fontname="Arial" color="#444443" label=<> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node13 -> node18 [style=invis]
+                    }
+                    
+	node0 -> node1 [penwidth=0.3 fontname="Arial" color="#444443" label=<  &le;> fontcolor="#444443"]
+	node0 -> node12 [penwidth=0.3 fontname="Arial" color="#444443" label=<  &gt;> fontcolor="#444443"]
+	
+                    {
+                        rank=same;
+                        node1 -> node12 [style=invis]
+                    }
+                    
+            leaf4 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\Al\AppData\Local\Temp\leaf4_3016.svg"/></td>
+                </tr>
+                </table>>]
+	leaf5 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\Al\AppData\Local\Temp\leaf5_3016.svg"/></td>
+                </tr>
+                </table>>]
+	leaf6 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\Al\AppData\Local\Temp\leaf6_3016.svg"/></td>
+                </tr>
+                </table>>]
+	leaf9 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\Al\AppData\Local\Temp\leaf9_3016.svg"/></td>
+                </tr>
+                </table>>]
+	leaf10 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\Al\AppData\Local\Temp\leaf10_3016.svg"/></td>
+                </tr>
+                </table>>]
+	leaf11 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\Al\AppData\Local\Temp\leaf11_3016.svg"/></td>
+                </tr>
+                </table>>]
+	leaf15 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\Al\AppData\Local\Temp\leaf15_3016.svg"/></td>
+                </tr>
+                </table>>]
+	leaf16 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\Al\AppData\Local\Temp\leaf16_3016.svg"/></td>
+                </tr>
+                </table>>]
+	leaf17 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\Al\AppData\Local\Temp\leaf17_3016.svg"/></td>
+                </tr>
+                </table>>]
+	leaf20 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\Al\AppData\Local\Temp\leaf20_3016.svg"/></td>
+                </tr>
+                </table>>]
+	leaf21 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\Al\AppData\Local\Temp\leaf21_3016.svg"/></td>
+                </tr>
+                </table>>]
+	leaf22 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\Al\AppData\Local\Temp\leaf22_3016.svg"/></td>
+                </tr>
+                </table>>]
+
+            
+                    subgraph cluster_legend {
+                        style=invis;
+                        legend [penwidth="0" margin="0" shape=box margin="0.03" width=.1, height=.1 label=<
+                        
+                <table border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td border="0" cellspacing="0" cellpadding="0"><img src="C:\Users\Al\AppData\Local\Temp\legend_3016.svg"/></td>
+                    </tr>
+                </table>
+                
+                        >]
+                    }
+                    
+            
+        }
+            
